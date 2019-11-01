@@ -29,66 +29,66 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.1.0'
 
-    implementation 'androidx.multidex:multidex:2.0.1'
+    api 'androidx.multidex:multidex:2.0.1'
 
     // Android P 无条件反射
-    implementation 'me.weishu:free_reflection:1.2.0'
+    api 'me.weishu:free_reflection:1.2.0'
 
-    implementation 'me.yokeyword:fragmentationx:1.0.1'
-    implementation 'me.yokeyword:fragmentationx-swipeback:1.0.1'
+    api 'me.yokeyword:fragmentationx:1.0.1'
+    api 'me.yokeyword:fragmentationx-swipeback:1.0.1'
 
-    implementation 'com.tencent.bugly:crashreport:3.1.0'
+    api 'com.tencent.bugly:crashreport:3.1.0'
     //其中latest.release指代最新版本号，也可以指定明确的版本号，例如2.3.2
     //compile 'com.tencent.bugly:crashreport_upgrade:latest.release'
     //其中latest.release指代最新版本号，也可以指定明确的版本号，例如1.2.0
-    implementation 'com.tencent.bugly:nativecrashreport:3.7.1'
+    api 'com.tencent.bugly:nativecrashreport:3.7.1'
 
-    implementation 'com.github.Deepblue1996:Density:1.0.1'
-    implementation 'com.github.Deepblue1996:UniversalAdapter:1.1'
-    implementation 'com.github.Deepblue1996:ShowEditText:1.0.7'
-    implementation 'com.github.Deepblue1996:RoundLayout:1.0'
-    implementation 'com.github.Deepblue1996:RecyclerViewFullLayoutManger:1.0'
+    api 'com.github.Deepblue1996:Density:1.0.1'
+    api 'com.github.Deepblue1996:UniversalAdapter:1.1'
+    api 'com.github.Deepblue1996:ShowEditText:1.0.7'
+    api 'com.github.Deepblue1996:RoundLayout:1.0'
+    api 'com.github.Deepblue1996:RecyclerViewFullLayoutManger:1.0'
 
-    implementation 'com.github.Deepblue1996:AndroidBug5497Workaround:1.0'
+    api 'com.github.Deepblue1996:AndroidBug5497Workaround:1.0'
 
-    implementation 'com.github.Deepblue1996:Dove:1.4.7'
+    api 'com.github.Deepblue1996:Dove:1.4.7'
 
-    implementation 'org.greenrobot:eventbus:3.1.1'
+    api 'org.greenrobot:eventbus:3.1.1'
 
-    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
-    implementation 'io.reactivex.rxjava2:rxjava:2.2.8'
-    implementation 'com.github.tbruyelle:rxpermissions:0.10.2'
+    api 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    api 'io.reactivex.rxjava2:rxjava:2.2.8'
+    api 'com.github.tbruyelle:rxpermissions:0.10.2'
 
-    implementation 'com.gyf.barlibrary:barlibrary:2.3.0'
+    api 'com.gyf.barlibrary:barlibrary:2.3.0'
 
-    implementation 'com.contrarywind:Android-PickerView:4.1.8'
+    api 'com.contrarywind:Android-PickerView:4.1.8'
 
-    implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.2.4'
+    api 'com.github.LuckSiege.PictureSelector:picture_library:v2.2.4'
 
-    implementation 'com.jeremyliao:fast-sharedpreferences:0.0.1'
+    api 'com.jeremyliao:fast-sharedpreferences:0.0.1'
 
-    implementation 'com.github.GrenderG:Toasty:1.4.1'
+    api 'com.github.GrenderG:Toasty:1.4.1'
 
-    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1'
+    api 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1'
 
-    implementation 'ren.qinc.edgetranslucent:lib:0.0.3'
+    api 'ren.qinc.edgetranslucent:lib:0.0.3'
 
-    implementation 'com.squareup.retrofit2:retrofit:2.6.1'
-    implementation 'com.squareup.retrofit2:converter-gson:2.6.1'
-    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.6.1'
-    implementation 'com.squareup.okhttp3:okhttp:4.2.0'
-    implementation 'com.squareup.okhttp3:logging-interceptor:4.2.0'
+    api 'com.squareup.retrofit2:retrofit:2.6.1'
+    api 'com.squareup.retrofit2:converter-gson:2.6.1'
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.6.1'
+    api 'com.squareup.okhttp3:okhttp:4.2.0'
+    api 'com.squareup.okhttp3:logging-interceptor:4.2.0'
 
-    implementation 'com.uber.autodispose:autodispose:1.4.0'
-    implementation 'com.uber.autodispose:autodispose-android-archcomponents:1.4.0'
+    api 'com.uber.autodispose:autodispose:1.4.0'
+    api 'com.uber.autodispose:autodispose-android-archcomponents:1.4.0'
 
-    implementation 'com.orhanobut:logger:2.2.0'
+    api 'com.orhanobut:logger:2.2.0'
 
-    implementation 'com.zchu:rxcache:2.3.5'
+    api 'com.zchu:rxcache:2.3.5'
 
-    implementation 'com.github.zcweng:switch-button:0.0.3@aar'
+    api 'com.github.zcweng:switch-button:0.0.3@aar'
 
-    implementation 'no.nordicsemi.android.support.v18:scanner:1.1.0'
-    implementation 'com.github.kingsollyu:NotProguard:1.0.0'
-    implementation 'com.google.code.gson:gson:2.8.5'
+    api 'no.nordicsemi.android.support.v18:scanner:1.1.0'
+    api 'com.github.kingsollyu:NotProguard:1.0.0'
+    api 'com.google.code.gson:gson:2.8.5'
 }
